@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content= 
+          "width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title> 
+    <style> 
+        body { 
+            margin: 0; 
+            padding: 0; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            height: 100vh; 
+            background-color: #f0f0f0; 
+            font-family: Arial, sans-serif; 
+        } 
+  
+    </style> 
+</head> 
+  
+<body> 
+        <div class="popup-box_230060012"> 
+            <h2 style="color: rgb(128, 0, 0);">Login</h2> 
+            <form class="form-container_230060012"> 
+                <label class="form-label_230060012" 
+                       for="name"> 
+                  Username: 
+                </label> 
+                <input class="form-input_230060012" type="text" 
+                       placeholder="Enter Your Username" 
+                       id="name" name="name" required> 
+  
+                <label class="form-label_230060012" for="email">Email:</label> 
+                <input class="form-input_230060012"
+                       type="email" 
+                       placeholder="Enter Your Email"
+                       id="email" 
+                       name="email" required> 
+
+                <label class="form-label_230060012" for="password">Password:</label> 
+                <input class="form-input_230060012"
+                       type="password" 
+                       placeholder="Enter Your Password"
+                       id="password" 
+                       name="password" required> 
+  
+                <a href="home.html" style="color: white"><button class="btn-submit_230060012" 
+                        type="submit"> 
+                  Submit 
+                </a>
+                </button> 
+            </form> 
+  
+            <a href="home.html"><button class="btn-close-popup_230060012" 
+                    onclick="togglePopup()"> 
+              Close 
+            </button> 
+            </a>
+        </div> 
+    </div> 
+  
+    <script> 
+        function togglePopup() { 
+            const overlay = document.getElementById('popupOverlay'); 
+            overlay.classList.toggle('show'); 
+        } 
+    </script> 
+</body> 
+  
+</html>
