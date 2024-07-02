@@ -1,0 +1,127 @@
+body{
+    background: #35A9DB;
+    font-family: roboto;
+    text-align: center;
+    color: #fff;
+}
+ 
+.ketengah{
+    margin: 10px auto;
+    width: 1150px;
+}
+ 
+ 
+@font-face {
+        font-family: tulisan_keren;
+        src: url(Thanks\ Giving.otf);
+}
+
+@font-face {
+    font-family: tulisan_airstrike;
+    src: url(airstrikebold.ttf);
+}
+
+@font-face {
+    font-family: tulisan_Avensa;
+    src: url(Avensa\ PERSONAL\ USE\ ONLY!.otf);
+}
+
+@font-face {
+    font-family: tulisan_28DaysLater;
+    src: url(28\ Days\ Later.ttf);
+}
+
+@font-face {
+    font-family: tulisan_Loogs;
+    src: url(Loogs\ -\ Personal\ Use.otf);
+}
+
+@font-face {
+    font-family: tulisan_snackercomic;
+    src: url(SnackerComic_PerosnalUseOnly.ttf);
+}
+
+@font-face {
+    font-family: tulisan_Sunflower;
+    src: url(Sunflower.otf);
+}
+
+@font-face {
+    font-family: tulisan_Venata;
+    src: url(Venata\ Demo.otf);
+}
+
+@font-face {
+    font-family: tulisan_28DaysLater;
+    src: url(28\ Days\ Later.ttf);
+}
+
+@font-face {
+    font-family: tulisan_Westfalen;
+    src: url(Westfalen\ -\ Demo.otf);
+}
+
+@font-face {
+    font-family: tulisan_Krinkes;
+    src: url(KrinkesDecorPERSONAL.ttf);
+}
+
+.font-khusus {
+    font-family: 'tulisan_keren';
+    font-size: 70pt;
+    font-variant: inherit;
+}
+
+.font-khusus-2 {
+    font-family: 'tulisan_airstrike';
+    font-size: 60pt;
+    font-variant: inherit;
+}
+
+.font-khusus-3 {
+    font-family: 'tulisan_Avensa';
+    font-size: 50pt;
+    font-variant: inherit;
+}
+
+.font-khusus-4 {
+    font-family: 'tulisan_28DaysLater';
+    font-size: 40pt;
+    font-variant: inherit;
+}
+
+.font-khusus-5 {
+    font-family: 'tulisan_Loogs';
+    font-size: 30pt;
+    font-variant: inherit;
+}
+
+.font-khusus-6 {
+    font-family: 'tulisan_snackercomic';
+    font-size: 20pt;
+    font-variant: inherit;
+}
+
+.font-khusus-7 {
+    font-family: 'tulisan_Sunflower';
+    font-size: 10pt;
+    font-variant: inherit;
+}
+
+.font-khusus-8 {
+    font-family: 'tulisan_Venata';
+    font-size: 15pt;
+    font-variant: inherit;
+}
+
+.font-khusus-9 {
+    font-family: 'tulisan_Westfalen';
+    font-size: 25pt;
+    font-variant: inherit;
+}
+
+.font-khusus-10 {
+    font-family: 'tulisan_Krinkes';
+    font-size: 35pt;
+    font-variant: inherit;
+}
